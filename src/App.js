@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <div style={{maxWidth: "10rem", margin: "2rem auto"}}>
+    <div style={{maxWidth: "50rem", margin: "4rem auto"}}>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />

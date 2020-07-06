@@ -1,10 +1,17 @@
 import React from 'react'
+import { Form, FormGroup, Label, Input, Button } from 'reactstrap'
+import { Link } from 'react-router-dom'
 
 const EditUser = () => {
   return (
-    <div>
-      <h1>EditUser</h1>
-    </div>
+    <Form>
+      <FormGroup>
+        <Label>Edit Name</Label>
+        <Input type="text" placeholder="Enter Name"></Input>
+      </FormGroup>
+      <Button type="submit">Submit </Button>
+      <Link to="/" className="btn btn-danger ml-2" style={{}}>Cancel</Link>
+    </Form>
   )
 }
 
